@@ -24,7 +24,7 @@ const Header = () => {
         <nav className="bg-white w-screen fixed z-20">
             <div className="px-4 py-3 md:flex justify-between items-center hidden mx-auto">
                 <div className='flex flex-row justify-center items-center'>
-                    <Image src='/gptletters-removebg-preview.png' width={70} height={70} />
+                    <Image src='/gptletters-removebg-preview.png' width={70} height={70} alt='Logo'/>
                     <div className="px-4 py-3 flex items-center">
                         <div className="flex items-center space-x-4">
                             <ul className="hidden lg:flex space-x-4">

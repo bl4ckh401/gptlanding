@@ -206,7 +206,7 @@ export default function pricing() {
                 Start Writing Today
               </h2>
               <p className="mt-3 text-xl text-gray-300 sm:mt-4">
-                Join our platform and start writing letters today! Whether you want to send a letter to a loved one or a formal business correspondence, we've got you covered.
+                Join our platform and start writing letters today! Whether you want to send a letter to a loved one or a formal business correspondence, we have you covered.
               </p>
               <div className="mt-10 sm:flex sm:justify-center">
                 <div className="rounded-md shadow">

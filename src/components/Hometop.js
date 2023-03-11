@@ -84,19 +84,19 @@ function Hometop() {
               </div>
               <div className='md:w-1/2 w-full flex justify-center items-center'>
                   <p className='text-base text-left py-6 px-3'>
-                      Tired of manually entering data into Microsoft Word when you need to generate letters? It's time for an upgrade. With Formstack Documents, you can create an automated letter generation process. Shave hours off your document prep time and meet customer needs faster.
+                      Do you ever get exhausted from having to do administrative work like document generation? Why not take it up a notch? With GPTLetters, generating documents can now be automated, allowing you to save hours of time in document preparation. Improve customer satisfaction by responding to their needs quickly and accurately with our state-of-the-art solution.
                   </p>
               </div>
           </div>
           <div className='bg-white w-full lg:w-3/4 flex-col flex-wrap flex justify-center items-start mt-6 py-4 mb-6  p-10'>
             <div className='md:w-1/2 w-full flex flex-col text-center justify-center items-center mb-2'>
               <h1 className='text-2xl text-left py-6 px-3 font-bold w-full text-blue-500'>Simplify the Document generation process</h1>
-                  <p className='text-base text-left py-6 px-3'>Say goodbye to tedious document preparation and hello to efficient and personalized letter generation with GPT-Letters. Our state-of-the-art platform automates the entire process, allowing you to spend more time supporting your customers and less time worrying about formatting and language.</p>
+                  <p className='text-base text-left py-6 px-3'>Tired of spending endless hours on document preparation? Say goodbye to the hassle with GPT-Letters. Our cutting-edge platform simplifies the entire document generation process, making it more efficient and personalized. No more worrying about formatting or language - our automation takes care of it all. With GPT-Letters, you can focus on what really matters - supporting your customers and growing your business.</p>
             </div>
               <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-6'>
                   {features.map((feature) => {
                       return (
-                          <div className='md:w-full flex justify-start items-start flex-col h-full'>
+                          <div className='md:w-full flex justify-start items-start flex-col h-full' key={feature.title}>
                               <div className='text-left py-6 px-3'>{feature.icon}</div>
                               <h2 className='text-xl text-left py-6 px-3 font-bold text-yellow-500'>{feature.title}</h2>
                               <p className='text-base text-left py-6 px-3'>
@@ -111,12 +111,12 @@ function Hometop() {
           <div className='bg-white w-full lg:w-3/4 flex-col flex-wrap flex justify-center items-start mt-6 py-4 mb-6  p-10'>
             <div className='md:w-1/2 w-full flex flex-col text-center justify-center items-center mb-2'>
                 <h1 className='text-2xl text-left py-6 px-3 font-bold w-full text-blue-500'>Automate your document generation process</h1>
-                  <p className='text-base text-left py-6 px-3'>Creating seamless workflows is easy with GPT-Letters. Here's an example of a workflow that can help you simplify your document generation process.</p>
+                  <p className='text-base text-left py-6 px-3'>Creating seamless workflows is easy with GPT-Letters. Here is an example of a workflow that can help you simplify your document generation process.</p>
             </div>
           <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-4'>
               {workflow.map((work) => {
                   return (
-                      <div className='md:w-full flex justify-start items-start flex-col h-full'>
+                      <div className='md:w-full flex justify-start items-start flex-col h-full' key={work.step}>
                         <div className='bg-green-500 rounded-full text-white w-16 h-16 flex justify-center items-center'>
                               <h2 className='text-xl text-left py-6 px-3 font-bold'>{work.step}</h2>
                         </div>
@@ -128,11 +128,6 @@ function Hometop() {
               })}
           </div>
           </div>
-          {/* <div className="bg-gradient-to-tr from-green-500 to-green-100 rounded-lg p-8 w-full flex-col flex justify-center items-center mt-6 py-4 h-96 md:h-96">
-              <h2 className="text-2xl font-bold mb-4">Ready to get started?</h2>
-              <p className="text-lg mb-4">Learn how GPT-Letters, our no-code suite of products, can help you automate the processes that matter and boost productivity.</p>
-              <a href="#" className="bg-green-600 hover:bg-green-600 text-white py-2 px-4 rounded-lg">Request a Demo</a>
-          </div> */}
           <section className="bg-gray-800 w-full">
               <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                   <div className="max-w-3xl mx-auto text-center">
@@ -140,7 +135,7 @@ function Hometop() {
                           Start Writing Today
                       </h2>
                       <p className="mt-3 text-xl text-gray-300 sm:mt-4">
-                          Join our platform and start writing letters today! Whether you want to send a letter to a loved one or a formal business correspondence, we've got you covered.
+                          Join our platform and start writing letters today! Whether you want to send a letter to a loved one or a formal business correspondence, we have got you covered.
                       </p>
                       <div className="mt-10 sm:flex sm:justify-center">
                           <div className="rounded-md shadow">
