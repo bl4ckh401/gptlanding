@@ -65,7 +65,7 @@ function Hometop() {
                   <p className='text-lg text-left py-2 px-1'>Say goodbye to tedious document preparation and hello to efficient and personalized letter generation with GPT-Letters. Our state-of-the-art platform automates the entire process, allowing you to spend more time supporting your customers and less time worrying about formatting and language.</p>
                   <div className='flex flex-col justify-center items-center md:flex-row w-full mt-10'>
 
-                <Link href='https://newgptletters-6vpv.vercel.app/sign-up'>
+                <Link href='https://letters.gptletters.com/sign-up'>
                     <button className='w-48 rounded-lg bg-green-500 text-white font-bold px-1 py-3 my-2 shadow-xl'>Start your Free Trial</button>
                 </Link>
                 <Link href='/contact'>
