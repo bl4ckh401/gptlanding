@@ -26,6 +26,19 @@ export default function pricing() {
         <meta name="description" content="Save money and resources with our AI-powered letter writing platform. Generate high-quality letters at a fraction of the cost of hiring a professional writer." />
         <meta name="description" content="Our platform uses machine learning to improve over time, ensuring that your letters are always cutting-edge and up-to-date with the latest trends." />
         <meta name="description" content="Let our AI platform create letters that are not just informative but also persuasive, driving your readers to take action." />
+        <meta name="description" content="How to write a cover letter" />
+        <meta name="description" content="How to write an NDA" />
+        <meta name="description" content="Love letters
+            Business letters
+            Cover letters
+            Thank-you letters
+            Recommendation letters
+            Apology letters
+            Resignation letters." />
+        <meta name="description" content="Here are examples of how to write cover letters, GPTLetters is the way to craft your personalized letters with artificial intelligence" />
+        <meta name="description" content="Say goodbye to writer's block! Our AI-powered platform creates unique and engaging letters for any occasion." />
+        <meta name="description" content="Unlock the power of AI to create compelling letters that captivate your audience and drive results." />
+        <meta name="description" content="Our platform uses advanced natural language processing to create letters that sound like they were written by a human." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
