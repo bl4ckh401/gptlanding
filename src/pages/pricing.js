@@ -5,7 +5,19 @@ export default function pricing() {
   return (
     <div>
       <Head>
-        <title>GPT-Letters Pricing</title>
+        <title>GPTLetters - Pricing</title>
+        <meta name="description" content="Create unique and customized letters for any situation with GPTLetters. Our AI-powered platform generates high-quality letters in seconds. Choose from a variety of letter types, including love letters, business letters, cover letters, and more." />
+        <meta name="description" content="How to write a cover letter" />
+        <meta name="description" content="How to write an NDA" />
+        <meta name="description" content="Love letters
+            Business letters
+            Cover letters
+            Thank-you letters
+            Recommendation letters
+            Apology letters
+            Resignation letters." />
+        <meta name="description" content="Pricing for GPTLetters" />
+        <meta name="description" content="Create unique and customized letters for any situation with GPTLetters. Our AI-powered platform generates high-quality letters in seconds. Choose from a variety of letter types, including love letters, business letters, cover letters, and more." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -29,12 +41,12 @@ export default function pricing() {
                 <h3 className="text-lg leading-6 font-medium text-blue-500">Free</h3>
                     <li className='mt-2 text-sm text-gray-500'>Save 15 letters</li>
                       <li className='mt-2 text-sm text-gray-500'>1 collaborator</li>
-                        <li className='mt-2 text-sm text-gray-500'>Generate 800 documents/month</li>
+                        <li className='mt-2 text-sm text-gray-500'>Generate 10 documents</li>
                         <li className='mt-2 text-sm text-gray-500'>Unlimited writing tips</li>
-                          <li className='mt-2 text-sm text-gray-500'>Download 1000 letters lifetime</li>
+                          <li className='mt-2 text-sm text-gray-500'>Download 15 letters lifetime</li>
                 <p className="mt-4 text-lg font-bold text-green-600">No cost</p>
                 <div className="mt-6">
-                  <Link href="#" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Get started</Link>
+                  <Link href="https://letters.gptletters.com/sign-in/" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Get started</Link>
                 </div>
               </div>
             </div>
@@ -45,11 +57,11 @@ export default function pricing() {
                       <li className='mt-2 text-sm text-gray-500'>Unlimited collaborators</li>
                         <li className='mt-2 text-sm text-gray-500'>Generate 5000 documents/month</li>
                           <li className='mt-2 text-sm text-gray-500'>Unlimited writing tips</li>
-                            <li className='mt-2 text-sm text-gray-500'>Download 5000 letters</li>
+                            <li className='mt-2 text-sm text-gray-500'>Download 1000 letters</li>
                 <p className="mt-4 text-lg font-bold text-green-600"><span className="line-through">$4/mo</span> $2/mo</p>
                 <p className="mt-1 text-xs text-red-500">50% off for first month</p>
                 <div className="mt-6">
-                  <Link href="#" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Get started</Link>
+                  <Link href="https://letters.gptletters.com/sign-in/" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Get started</Link>
                 </div>
               </div>
             </div>
@@ -65,7 +77,7 @@ export default function pricing() {
                     <p className="mt-4 text-lg font-bold text-green-600"><span className="line-through">$20/mo</span> $10/mo</p>
                     <p className="mt-1 text-xs text-red-500">50% off for first 3 months</p>
                     <div className="mt-6">
-                      <a href="#" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Get started</a>
+                      <Link href="https://letters.gptletters.com/sign-in/" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Get started</Link>
                     </div>
                   </div>
                 </div>
@@ -77,7 +89,7 @@ export default function pricing() {
                       <li className="mt-2 text-sm text-gray-500">advanced analytics, and more</li>
                 <p className="mt-4 text-lg font-bold text-green-600">Contact us</p>
                 <div className="mt-6">
-                  <Link href="#" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Contact us</Link>
+                  <Link href="https://letters.gptletters.com/sign-in/" className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg block w-full text-center">Contact us</Link>
                 </div>
               </div>
             </div>
@@ -216,7 +228,7 @@ export default function pricing() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Link href="/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-50 bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10">
-                    Learn more
+                    Learn more About GPTLetters
                   </Link>
                 </div>
               </div>

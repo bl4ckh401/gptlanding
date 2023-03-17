@@ -139,13 +139,13 @@ function Hometop() {
                       </p>
                       <div className="mt-10 sm:flex sm:justify-center">
                           <div className="rounded-md shadow">
-                              <Link href="https://newgptletters-6vpv.vercel.app/sign-up" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                              <Link href="https://letters.gptletters.com/sign-up" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
                                   Sign up for free
                               </Link>
                           </div>
                           <div className="mt-3 sm:mt-0 sm:ml-3">
                               <Link href="/pricing" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-50 bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10">
-                                  Learn more
+                                  Learn more about GPTLetters
                               </Link>
                           </div>
                       </div>
